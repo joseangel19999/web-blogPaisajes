@@ -43,7 +43,18 @@
 	<script src="vistas/js/plugins/jquery.easing.js"></script>
 
 </head>
+<body>
 
+<?php
+	include './vistas/paginas/modulos/header.php';
+	include './vistas/paginas/modulos/redes-sociales.php';
+	include './vistas/paginas/modulos/buscador-movil.php';
+	include './vistas/paginas/modulos/menu.php';
+
+	include './vistas/paginas/inicio.php';
+
+	include './vistas/paginas/modulos/footer.php';
+?>
 <script src="vistas/js/script.js"></script>
 
 </body>
